@@ -1,0 +1,30 @@
+.RYPOPUPBG {
+    position: fixed;
+    background: #0f0f0fcc;
+    padding: 20px;
+    margin: auto;
+    overflow: auto;
+    overflow-x: hidden;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    z-index: 888888;
+}
+.RYPOPUOCONTENT {
+    position: fixed;
+    background: #fff;
+    padding: 10px;
+    margin: auto;
+    border-radius: 20px;
+    overflow: auto;
+    overflow-x: hidden;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    z-index: 999999;
+    max-width: 75%;
+    max-height: 90%;
+    height: max-content;
+}

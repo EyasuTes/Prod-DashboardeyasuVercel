@@ -1,0 +1,29 @@
+.rdw-editor-wrapper {
+    margin-bottom: 20px;
+}
+.DraftEditor-editorContainer {
+    min-height: 150px;
+    max-height: 450px;
+    overflow: auto;
+    padding: 0px 10px;
+    border: 1px solid #80808052;
+}
+.ck-editor__editable {
+    max-height: 300px;
+    min-height: 120px;
+    overflow: auto;
+    margin-bottom: 10px;
+}
+.ck-editor__editable ul {
+    margin-left: 20px;
+}
+.rdw-block-wrapper , .rdw-fontsize-wrapperOLD1,
+.rdw-fontfamily-wrapper, .rdw-colorpicker-wrapper,
+.rdw-link-wrapper, .rdw-embedded-wrapper,
+.rdw-emoji-wrapper, .rdw-image-wrapper,
+.rdw-remove-wrapper {
+    display: none;
+}
+.DraftEditor-editorContainer span {
+    display: inline;
+}
